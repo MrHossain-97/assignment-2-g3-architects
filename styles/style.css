@@ -1,0 +1,152 @@
+/* ------------------------------header section start----------------------------------- */
+.header{
+    height: 1322px;
+    width: 100%;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom: 85px;
+}
+/* ----------nav--------- */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #131313;
+    position: absolute;
+    width: 320px;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 700px;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 228px;
+}
+.nav-list{
+    width: 477px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 63px;
+    margin-right: 250px;
+    list-style: none;
+}
+.element{
+    color: #424242;
+    font-family: 'Work Sans';
+    font-weight: 500px;
+    font-size: 18px;
+}
+.element:hover{
+    background-color: gray;
+}
+
+/* -----------header description--------- */
+.header-description{
+    Width: 862px;
+    Height: 225px;
+    text-align: center;
+    margin-top: 102px;
+    margin-left: 519px;
+    margin-bottom: 33px;
+}
+.header-title{
+    color: #131313;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.header-title-description{
+    color: #727272;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* ------button---- */
+.explorer-btn{
+    text-align: center;
+}
+.btn{
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+.btn:hover{
+    background-color: #424242;
+}
+/* --------image------- */
+.header-image{
+    text-align: center;
+}
+#image-1{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+/* -------------------------------------------header section end--------------------------------------- */
+
+/* -------------------------------------------main section start-------------------------------------- */
+
+/* features list */
+.features-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 130px;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 301px;
+}
+.features-image{
+    width: 342px;
+    height: 342px;
+}
+.features-description{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-row-gap: 24px; */
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+}
+.features-title{
+    color: #131313;
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+#sp-word-2{
+    color: #FF900E;
+}
+#sp-word-1{
+    color: #727272;
+}
+.features-title-description{
+    color: #727272;
+    width: 537px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;ssssss
+}
