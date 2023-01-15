@@ -348,3 +348,118 @@
     font-size: 18px;
     color: red;
 }
+
+.hide{
+    visibility: hidden;
+}
+
+/* making responsive for smaller devices(mobile) */
+@media only screen and (max-width:600px){
+    body{
+        float: left;
+        background-color: aquamarine;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-left: 10px;
+        position: relative;
+    }
+    .nav-list{
+        text-align: left;
+    }
+    .header-description{
+        margin-left: 0px;
+        text-align: left;
+    }
+    .header-title{
+        text-align: left;
+        font-size: 35px;
+    }
+    .header-title-description{
+        width: 400px;
+    }
+    .explorer-btn{
+        text-align: left;
+    }
+    .header-image{
+        text-align: left;
+    }
+    #image-1{
+        width: 400px;
+        height: 600px;
+    }
+    .features-list{
+        grid-template-columns: 1fr;
+        width: 600px;
+    }
+    .features-title{
+        font-size: 45px;
+    }
+    .features-title-description{
+        width: 500px;
+    }
+    .features-images{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .features-description{
+        margin-left: 10px;
+    }
+    .loveable-features{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px;
+        background-position: 0% 100%;
+        background-size: 400px;
+    }
+    .features-title{
+        font-size: 25px;
+    }
+    .features-title-description{
+        width: 350px;
+    }
+    .feature-name{
+        width: 350px;
+    }
+    .facts-description{
+        margin-left: 0px;
+    }
+    .facts-elements{
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+    }
+    #board-directories-section-title{
+        margin-left: 0px;
+    }
+    .board-directories{
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+    }
+    .sponsors-description{
+        margin-left: 0px;
+    }
+    #sponsors-section-title{
+        text-align: left;
+    }
+    #sponsors-section-title-description{
+        text-align: left;
+    }
+    .sponsors-logo{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        gap: 30px;
+    }
+    .footer{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .warning{
+        text-align: left;
+    }
+    
+}
